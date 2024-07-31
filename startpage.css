@@ -1,0 +1,50 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 55;
+box-shadow: 0 3px;
+background-color: ;
+color:;
+}  */
+.start-button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px; /* reduced padding to make the button smaller */
+  border: none;
+  border-radius: 10px;
+  font-size: 18px; /* reduced font size to make the text smaller */
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #3e8e41;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1); /* add scale effect on hover */
+}
+
+.start-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  transform: scale(0.9); /* add scale effect on click */
+}
+  .wave-effect {
+    animation: wave 2s infinite;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: translateY(0);
+      color: #333;
+    }
+    50% {
+      transform: translateY(-10px);
+      color: #00698f;
+    }
+    100% {
+      transform: translateY(0);
+      color: #333;
+    }
+  }
